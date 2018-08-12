@@ -1,0 +1,10 @@
+
+crypto_coins={'Bitcoin', 'Litecoin', 'Bitcoin', 'ripple', 'Bitcash'}
+print(crypto_coins)  # not display repeated items
+
+if 'Bitcoin' in crypto_coins:
+    print("Bitcoin is already available")
+else:
+    print("Hey ha no Bit")
+
+    
