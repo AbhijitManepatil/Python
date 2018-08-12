@@ -1,0 +1,10 @@
+
+
+def abc(name='abhi', age=29, surn='MP' ):
+    print(name,age,surn)
+
+abc()
+
+abc("Hi",30, "Patil")
+
+abc(surn="MANEPATIL", age=25)
