@@ -1,0 +1,9 @@
+def abhi():                                 # create user defined Function use def
+    print("Hi this in abhi Function")
+
+def bitcoin_to_usd(btc):                   # paramerised constructor
+    amount = btc *50
+    print(amount)
+
+abhi()                   # calling function
+bitcoin_to_usd(100)      # calling function with parameter
