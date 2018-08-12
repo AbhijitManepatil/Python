@@ -1,0 +1,11 @@
+import  modu
+import random
+
+modu.display()
+
+x=random.randrange(1,1000)
+print(x)
+
+
+#def display():
+    print('This is Module')
