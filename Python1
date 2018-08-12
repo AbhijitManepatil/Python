@@ -1,0 +1,8 @@
+name ="Abhi"
+
+if name is "Pree":    #comment : colon is compusory after the keyword if and else
+    print("Hi Pree")
+elif name is "Ran":    #elif for the multiple options
+    print(" Hi Ran")
+else:
+    print("cheak name")  # non of above then else get executed 
