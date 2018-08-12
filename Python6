@@ -1,0 +1,6 @@
+def abhi():
+    print("Hi")
+    return 10     #return value to function
+
+abc=abhi()        #store function return value in variable
+print(abc)        # print that variable
