@@ -1,0 +1,13 @@
+print("Hi unpacking arguments")
+
+
+def health_cal(age,apple,cigar):
+    ans=(100-age) + (apple * 3.5) - (cigar *2 )
+    print(ans)
+
+health_cal(29, 20, 0)
+
+my_data=[27,10,2]   #list contain data of age, apple, cigar
+health_cal(my_data[0], my_data[1], my_data[2])
+
+health_cal(*my_data)
