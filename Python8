@@ -1,0 +1,12 @@
+
+print("Hi This is flexible argument")
+
+def abc(*arg):    # * is a no. of argument may no.
+    print(arg)
+
+    for n in arg:
+        print(n)
+
+abc(10)
+abc(10,20)
+abc(10,20,30)
