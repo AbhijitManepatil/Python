@@ -1,0 +1,10 @@
+
+print("Learning Dictionary")
+
+classmates = {'abhi':'cool', 'sagar':'real', 'sum':'shivam'}
+
+print(classmates)
+
+for k,v in classmates.items():
+    print("Keys: ", k)
+    print("Values", v)

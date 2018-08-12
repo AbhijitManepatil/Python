@@ -1,0 +1,6 @@
+food = ['shira', 'pohe', 'upma', 'burger']
+
+for f in food[2:4]:   # f is variable of the list food    [2:4] from 2 to 4 items of list selected
+    print(f)
+    print("Hi")
+    print(len(f))     # len() calculate the length of the string
