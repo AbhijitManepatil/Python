@@ -1,0 +1,9 @@
+x=5
+
+while x < 10:
+    print(x)
+    x +=1
+
+print("Range function")
+for x in range(10, 20, 2):  # range( initial, end, increment)
+    print(x)
