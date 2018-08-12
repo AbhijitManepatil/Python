@@ -1,0 +1,10 @@
+#Basic if_else
+
+name ="Abhi"
+
+if name is "Preeti":    #comment : colon is compusory after the keyword if and else
+    print("Hi Pree")
+elif name is "Rani":    #elif for the multiple options
+    print(" Hi Rani")
+else:
+    print("cheak name")  # non of above then else get executed as
