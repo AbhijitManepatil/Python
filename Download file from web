@@ -1,0 +1,30 @@
+from urllib2 import urlopen
+
+
+
+#from urllib import request
+
+
+reliance = 'https://query1.finance.yahoo.com/v7/finance/download/%5EBSESN?period1=1516871552&period2=1519549952&interval=1d&events=history&crumb=eFUOCcCeNtO'
+
+def data_ana(company):
+    save = request.urlopen(company)
+    readingcampany =save.read()
+    csv_str = str(readingcampany)
+    lines = csv_str.split("\\n")
+    desti_file= r'goog.csv'
+
+    fx =open(desti_file, "w")
+
+    for line in lines:
+        fx.write(line + "\n")
+        fx.close()
+
+
+
+data_ana(reliance)
+
+
+
+
+
